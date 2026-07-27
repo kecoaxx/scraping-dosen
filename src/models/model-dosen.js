@@ -6,6 +6,8 @@ export class DosenRecord {
         this.fakultas = data.fakultas || 'Unassigned';
         this.prodi = data.prodi || null;
         this.foto = data.foto || null;
+        this.link = data.link || null;
+        this.email = data.email || null;
         
         this.gelarProf = data.gelarProf ? data.gelarProf.trim() : null;
         this.gelarDepan = data.gelarDepan ? data.gelarDepan.trim() : null;
@@ -18,6 +20,10 @@ export class DosenRecord {
         const safeName = this.nama 
             ? this.nama.replace(/[^a-zA-Z]/g, '').toLowerCase() 
             : 'unknown';
+
+        const safeFakultas = this.fakultas
+            ? this.fakultas.replace(/[^a-zA-Z]/g, '').toLowerCase()
+            : 'unassigned';
             
         const safeProdi = this.prodi
             ? this.prodi.replace(/[^a-zA-Z]/g, '').toLowerCase()
@@ -27,6 +33,6 @@ export class DosenRecord {
             ? this.univ.replace(/[^a-zA-Z]/g, '').toLowerCase()
             : 'unknown'
 
-        return `dosen:${safeName}_${safeProdi}_${univ}`;
+        return `dosen:${safeName}_${safeProdi}_${safeFakultas}_${univ}`;
     }
 }
