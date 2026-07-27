@@ -44,6 +44,7 @@ Example: To use `src/scrapers/scraper-ub.js`
 | :----------- | :------- | :------- | :------------------------- |
 | Universitas Brawijaya | UB | Active |  |
 | Universitas Bangka Belitung | UBB | Active |  |
+| Universitas Gajah Mada | UGM | Active |  |
 
 
 
