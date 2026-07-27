@@ -203,7 +203,7 @@ In brief. Here you must:
 
 - Include the scope of the commit
 - Lowercase comments unless it reference something
-- Using [imperative mood](https://share.gemini.google/cvl04BJGwoqz)
+- Use [imperative mood](https://share.gemini.google/cvl04BJGwoqz)
 - Make it clear and concise
 
 Below are examples of
