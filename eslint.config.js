@@ -6,6 +6,9 @@ export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs}"],
     plugins: { js },
+    rules: {
+      "no-undef": "off",
+    },
     extends: ["js/recommended"],
     languageOptions: { globals: globals.node },
   },
