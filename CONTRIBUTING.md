@@ -201,14 +201,14 @@ Updating, improving and correcting the documentation
 
 In brief. Here you must:
 
-- Includes the scope of the commit
-- All of the comments are lowercase unless referecing something
-- Must be using [imperative mood](https://share.gemini.google/cvl04BJGwoqz)
+- Include the scope of the commit
+- Lowercase comments unless it reference something
+- Use [imperative mood](https://share.gemini.google/cvl04BJGwoqz)
 - Make it clear and concise
 
 Below are examples of
 
-```git
+```bash
   chore(markdown): update styleguides on CONTRIBUTING.md
   feat(scraper): add scraper for universitas indonesia
   fix(scraper): fix bugs on handling null responseData at ugm
