@@ -15,7 +15,6 @@ export async function scrapeUNAIR() {
       (rows, passedUnivName) => {
         return rows
           .map((row) => {
-            row[0] = null;
             const cells = row.querySelectorAll("td");
 
             const namaLengkap = cells[1].innerText.trim();
@@ -48,3 +47,4 @@ export async function scrapeUNAIR() {
 
 // Reusable CLI execution
 runCLI(import.meta.url, scrapeUNAIR, univname);
+I(import.meta.url, scrapeUNAIR, univname);
