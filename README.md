@@ -38,13 +38,15 @@ Example: To use `src/scrapers/scraper-ub.js`
 
 ## Active Scrapers
 
-| University                  | Short | Status |
-| :-------------------------- | :---- | :----- |
-| Universitas Brawijaya       | UB    | Active |
-| Universitas Bangka Belitung | UBB   | Active |
-| Universitas Gajah Mada      | UGM   | Active |
-| Universitas Sumatra Utara   | USU   | Active |
-| Universitas Airlangga       | UNAIR | Active |
+| University                     | Short | Status |
+| :----------------------------- | :---- | :----- |
+| Universitas Brawijaya          | UB    | Active |
+| Universitas Bangka Belitung    | UBB   | Active |
+| Universitas Gajah Mada         | UGM   | Active |
+| Universitas Airlangga          | UNAIR | Active |
+| Universitas Andalas            | UNAND | Active |
+| Universitas Pendidikan Ganesha | UNAND | Active |
+| Universitas Sumatra Utara      | USU   | Active |
 
 ## License
 
